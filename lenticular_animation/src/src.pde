@@ -1,134 +1,98 @@
-// This is a template for creating a looping animation in Processing. 
-// When you press a key, this program will export a series of images
-// into an "output" directory located in its sketch folder. 
-// These can then be combined into an animated GIF. 
-// Prof. Golan Levin, January 2014 - CMU IACD
- 
-//===================================================
-// Global variables. 
- 
-int     nFramesInLoop = 30; // for lenticular export, change this to 10!
-int     nElapsedFrames;
-boolean bRecording; 
- 
-String  myName = "golanlevin";
- 
-//===================================================
+final int NUMBER_FRAMES = 100;
+final int TRAIL_SIZE = NUMBER_FRAMES / 2;
+final boolean IS_GIF = true;
+final int SIZE = 500;
+
+final float[] AMPLITUDES = {0.75, 0, 0.25, 0.947, 0.15, 0, 0.107, 0};
+final float[] PHASES = {0, 0, 0, -3.3, 0, 0, 0, 0, 0};
+
+
+int current_frame = 0;
+boolean recording = false;
+
+ArrayList<Float> last_px = new ArrayList<Float>();
+ArrayList<Float> last_py = new ArrayList<Float>();
+
 void setup() {
-  size (400, 200); 
-  bRecording = false;
-  nElapsedFrames = 0;
-  frameRate (nFramesInLoop); 
+  size(SIZE, SIZE); 
+  frameRate(NUMBER_FRAMES);
 }
-//===================================================
-void keyPressed() { 
-  // Press a key to export frames to the output folder
-  bRecording = true;
-  nElapsedFrames = 0;
+
+void keyPressed() {
+  recording = true;
+  current_frame = 0;
+  last_px.clear();
+  last_py.clear();
 }
- 
-//===================================================
+
 void draw() {
- 
-  // Compute a percentage (0...1) representing where we are in the loop.
-  float percentCompleteFraction = 0; 
-  if (bRecording) {
-    percentCompleteFraction = (float) nElapsedFrames / (float)nFramesInLoop;
-  } 
-  else {
-    float modFrame = (float) (frameCount % nFramesInLoop);
-    percentCompleteFraction = modFrame / (float)nFramesInLoop;
+  float percentComplete = 0; 
+  if (recording) {
+    percentComplete = (float) current_frame / (float)NUMBER_FRAMES;
+  } else {
+    float modFrame = (float) (frameCount % NUMBER_FRAMES);
+    percentComplete = modFrame / (float)NUMBER_FRAMES;
   }
  
-  // Render the design, based on that percentage. 
-  renderMyDesign (percentCompleteFraction);
+  renderMyDesign(percentComplete);
  
-  // If we're recording the output, save the frame to a file. 
-  if (bRecording) {
-    saveFrame("output/"+ myName + "-loop-" + nf(nElapsedFrames, 4) + ".png");
-    nElapsedFrames++; 
-    if (nElapsedFrames == nFramesInLoop) {
-      bRecording = false;
+  if (recording) {
+    if (IS_GIF && current_frame % (NUMBER_FRAMES / 10) == 0) {
+      saveFrame("output/short-" + nf(current_frame, 4) + ".png");
+    } else if(!IS_GIF && current_frame % (NUMBER_FRAMES / 100) == 0) {
+      saveFrame("output/frame-" + nf(current_frame, 4) + ".png");
+    }
+    
+    current_frame++;
+    if (current_frame == NUMBER_FRAMES + 201) {
+      recording = false;
     }
   }
 }
  
-//===================================================
 void renderMyDesign (float percent) {
- 
-  // This is an example of a function that renders a temporally looping design. 
-  // It takes a "percent", between 0 and 1, indicating where we are in the loop. 
-  // This example uses two different graphical techniques. 
-  // Use or delete whatever you prefer from this example. 
-  // Remember to SKETCH FIRST!
- 
-  //----------------------
-  // here, I set the background and some other graphical properties
-  background (180);
-  smooth(); 
-  stroke (0, 0, 0); 
-  strokeWeight (2); 
- 
-  //----------------------
-  // Here, I assign some handy variables. 
-  float cx = 100;
-  float cy = 100;
- 
-  //----------------------
-  // Here, I use trigonometry to render a rotating element.
-  float radius = 80; 
-  int nSpokes = 7; 
-  for (int i=0; i < nSpokes; i++) {
-    float armAngle = (percent + i) * (TWO_PI/nSpokes); 
-    float px = cx + radius*cos(armAngle); 
-    float py = cy + radius*sin(armAngle); 
-    fill    (255); 
-    line    (cx, cy, px, py); 
-    ellipse (px, py, 20, 20);
+  background(240);
+  smooth();
+  strokeWeight(2);
+
+  percent -= 0.455;
+  percent /= 2.5;
+  
+  fill(0, 0, 0, 0);
+
+  float start_angle = -percent * TWO_PI;
+  float px = SIZE / 2.0;
+  float py = SIZE / 2.0;
+  
+  for (int i = 0; i < 8; i++) {
+    float angle = start_angle * (i + 1) - PHASES[i];
+    float radius = AMPLITUDES[i] * (SIZE / 5.0);
+    float cx = px;
+    float cy = py;
+
+    px = cx + radius * cos(angle);
+    py = cy + radius * sin(angle);
+
+    stroke(0, 0, 0, 45);
+    ellipse(cx, cy, radius * 2, radius * 2);
+    ellipse(cx, cy, 4, 4);
+    
+    stroke(200, 150, 150, 150);
+    line(cx,cy, px, py);
   }
- 
-  //----------------------
-  // Here, I use graphical transformations 
-  // to render a rotated square. 
-  pushMatrix(); 
-  translate (cx, cy);
-  float rotatingSquareAngle =  percent * TWO_PI * -0.25;
-  rotate (rotatingSquareAngle); 
-  fill (255, 128); 
-  rect (-40, -40, 80, 80);
-  popMatrix(); 
- 
-  //----------------------
-  // Here's a set of linearly-moving circles
-  float ballSize = 20;
-  float topY = 0 - ballSize - 2;
-  float botY = height;
-  float spanY = botY - topY; 
- 
-  int nMovingBalls = 5; 
-  for (int i=0; i <= nMovingBalls; i++) {
-    float ballSpacing = spanY / (float)nMovingBalls;
-    float yBase = topY + ballSize/2; // offset for radius of ball 
-    float yPercent = map(percent, 0, 1, topY, topY+ballSpacing);
-    float yPosition = yBase + (yPercent + (i*ballSpacing))%spanY; 
- 
-    fill (255, 255, 255); 
-    ellipse (250, yPosition, ballSize, ballSize);
+  
+  last_px.add(px);
+  last_py.add(py);
+  
+  for (int i = 1; i < last_px.size(); i++) {
+    float opacity = i * 255.0 / TRAIL_SIZE;
+    stroke(0, 0, 200, opacity);
+    line(last_px.get(i - 1), last_py.get(i - 1), last_px.get(i), last_py.get(i));
   }
- 
-  //----------------------
-  // Here's a pulsating ellipse
-  float ellipsePulse = cos ( percent * TWO_PI); 
-  float ellipseW = map(ellipsePulse, -1, 1, 20.0, 80.0); 
-  float ellipseH = map(ellipsePulse, -1, 1, 80.0, 20.0); 
-  float ellipseColor = map(ellipsePulse, -1, 1, 0, 255); 
-  fill (ellipseColor, ellipseColor, ellipseColor); 
-  ellipse (340, cy, ellipseW, ellipseH); 
- 
-  //----------------------
-  fill (0, 0, 0);
-  textAlign (CENTER); 
-  String percentDisplayString = nf(percent, 1, 3);
-  text (percentDisplayString, 340, 40);
+  
+  while (last_px.size() > TRAIL_SIZE) {
+    last_px.remove(0);
+    last_py.remove(0);
+  }
 }
 
