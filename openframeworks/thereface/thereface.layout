@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="release" />
+	<File name="..\..\..\of_v0.8.0_win_cb_release\addons\ofxFaceTracker\src\ofxFaceTrackerThreaded.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="439" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\of_v0.8.0_win_cb_release\addons\ofxTonic\src\Tonic\Synth.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2856" topLine="245" />
+		</Cursor>
+	</File>
+	<File name="src\testApp.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="982" topLine="25" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\of_v0.8.0_win_cb_release\addons\ofxTonic\src\Tonic.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1039" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\of_v0.8.0_win_cb_release\addons\ofxTonic\src\Tonic\Generator.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1544" topLine="60" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\of_v0.8.0_win_cb_release\addons\ofxFaceTracker\src\ofxFaceTracker.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1524" topLine="34" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\of_v0.8.0_win_cb_release\addons\ofxTonic\src\Tonic\SawtoothWave.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3159" topLine="21" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\of_v0.8.0_win_cb_release\addons\ofxTonic\src\Tonic\SineWave.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="243" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\of_v0.8.0_win_cb_release\addons\ofxTonic\src\ofxTonicSynth.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="691" topLine="18" />
+		</Cursor>
+	</File>
+	<File name="src\main.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\testApp.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="353" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\of_v0.8.0_win_cb_release\addons\ofxCv\src\ofxCv.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="20" topLine="0" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>
