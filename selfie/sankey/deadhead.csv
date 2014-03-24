@@ -1,43 +1,67 @@
 name,date,amount,categories
-Full Pint Brewing Chinookie IPA,Thu Feb 27 00:22:20 UTC 2014,1.0,Beer
-Full Pint Brewing Chinookie IPA,Wed Feb 26 04:21:12 UTC 2014,1.0,Beer
+Troegs Brothers Perpetual IPA,Tue Mar 04 04:46:08 UTC 2014,1.0,Beer; IPA
+Techmo Super Baseball,Tue Mar 04 03:06:22 UTC 2014,40.0,Video Game
+Bell's Hopslam Ale,Tue Mar 04 02:46:00 UTC 2014,1.0,Beer; IPA
+Heart Mender,Mon Mar 03 16:23:33 UTC 2014,1.0,Coffee
+Heart Mender,Mon Mar 03 15:15:00 UTC 2014,1.0,Coffee
+Troegs Brothers Perpetual IPA,Mon Mar 03 07:31:00 UTC 2014,1.0,Beer; IPA
+Atwater Vanilla Java Porter,Mon Mar 03 02:50:00 UTC 2014,1.0,Beer; Porter
+Techmo Super Baseball,Sun Mar 02 19:23:00 UTC 2014,60.0,Video Game
+Heart Mender,Sun Mar 02 05:23:00 UTC 2014,1.0,Coffee
+Troegs Brothers Perpetual IPA,Sun Mar 02 03:12:00 UTC 2014,2.0,Beer; IPA
+Composing,Sat Mar 01 22:30:00 UTC 2014,2.5,Music
+Heart Mender,Sat Mar 01 20:00:00 UTC 2014,1.0,Coffee
+Troegs Brothers Perpetual IPA,Sat Mar 01 04:26:00 UTC 2014,1.0,Beer; IPA
+Bell's Hopslam Ale,Sat Mar 01 03:26:00 UTC 2014,1.0,Beer; IPA
+Composing,Fri Feb 28 22:30:00 UTC 2014,1.0,Music
+Heart Mender,Fri Feb 28 15:00:00 UTC 2014,1.0,Coffee
+Techmo Super Baseball,Fri Feb 28 03:36:45 UTC 2014,60.0,Video Game
+Costa Rica Del Sol,Thu Feb 27 14:00:00 UTC 2014,1.0,Coffee
+Techmo Super Baseball,Thu Feb 27 04:00:30 UTC 2014,100.0,Video Game
+Full Pint Brewing Chinookie IPA,Thu Feb 27 00:22:20 UTC 2014,1.0,Beer; IPA
+Recording,Wed Feb 26 22:59:00 UTC 2014,0.5,Music
+Composing,Wed Feb 26 22:30:00 UTC 2014,1.0,Music
+Costa Rica Del Sol,Wed Feb 26 14:00:00 UTC 2014,1.0,Coffee
+Full Pint Brewing Chinookie IPA,Wed Feb 26 04:21:12 UTC 2014,1.0,Beer; IPA
 Techmo Super Baseball,Wed Feb 26 04:21:03 UTC 2014,60.0,Video Game
 Costa Rica Del Sol,Tue Feb 25 18:19:00 UTC 2014,1.0,Coffee
 Plain Bagel,Tue Feb 25 10:45:18 UTC 2014,1.0,Bagel
-Full Pint Brewing Chinookie IPA,Mon Feb 24 22:22:44 UTC 2014,1.0,Beer
+Full Pint Brewing Chinookie IPA,Mon Feb 24 22:22:44 UTC 2014,1.0,Beer; IPA
 Techmo Super Baseball,Mon Feb 24 17:09:00 UTC 2014,40.0,Video Game
 Cinnamon Bagel,Mon Feb 24 15:00:00 UTC 2014,1.0,Bagel
 Techmo Super Baseball,Mon Feb 24 02:09:00 UTC 2014,240.0,Video Game
 Plain Bagel,Mon Feb 24 02:00:00 UTC 2014,1.0,Bagel
-Full Pint Brewing Chinookie IPA,Mon Feb 24 02:00:00 UTC 2014,1.0,Beer
 Cinnamon Bagel,Mon Feb 24 02:00:00 UTC 2014,1.0,Bagel
+Full Pint Brewing Chinookie IPA,Mon Feb 24 02:00:00 UTC 2014,1.0,Beer; IPA
 Plain Bagel,Sun Feb 23 22:09:00 UTC 2014,1.0,Bagel
 Cinnamon Bagel,Sun Feb 23 15:00:00 UTC 2014,1.0,Bagel
 Plain Bagel,Sun Feb 23 15:00:00 UTC 2014,1.0,Bagel
-Full Pint Brewing Chinookie IPA,Sat Feb 22 21:00:00 UTC 2014,2.0,Beer
+Full Pint Brewing Chinookie IPA,Sat Feb 22 21:00:00 UTC 2014,2.0,Beer; IPA
 Techmo Super Baseball,Fri Feb 21 20:09:00 UTC 2014,40.0,Video Game
+Composing,Fri Feb 21 18:30:00 UTC 2014,1.0,Music
 Techmo Super Baseball,Thu Feb 20 20:09:00 UTC 2014,60.0,Video Game
 Techmo Super Baseball,Thu Feb 20 14:02:33 UTC 2014,110.0,Video Game
 Zebra Drip,Thu Feb 20 14:02:18 UTC 2014,1.0,Coffee
 Costa Rica Del Sol,Thu Feb 20 14:02:14 UTC 2014,1.0,Coffee
+Composing,Tue Feb 18 19:30:00 UTC 2014,1.0,Music
 Heart Mender,Tue Feb 18 14:27:24 UTC 2014,1.0,Coffee
 Poppy Seed Bagel,Tue Feb 18 14:25:06 UTC 2014,1.0,Bagel
-East Side Big Hop,Tue Feb 18 00:15:00 UTC 2014,1.0,Beer
+East Side Big Hop,Tue Feb 18 00:15:00 UTC 2014,1.0,Beer; IPA
 Heart Mender,Mon Feb 17 21:10:00 UTC 2014,1.0,Coffee
 Heart Mender,Mon Feb 17 18:00:00 UTC 2014,1.0,Coffee
 Recording,Mon Feb 17 07:29:30 UTC 2014,2.0,Music
 Techmo Super Baseball,Mon Feb 17 07:29:10 UTC 2014,30.0,Video Game
 Costa Rica Del Sol,Sun Feb 16 17:02:28 UTC 2014,1.0,Coffee
-East End Big Hop IPA,Sun Feb 16 09:08:26 UTC 2014,2.0,Beer
+East End Big Hop IPA,Sun Feb 16 09:08:26 UTC 2014,2.0,Beer; IPA
 Recording,Sun Feb 16 05:30:00 UTC 2014,4.0,Music
 Composing,Sat Feb 15 19:34:00 UTC 2014,4.0,Music
 Composing,Sat Feb 15 05:47:57 UTC 2014,0.5,Music
 Techmo Super Baseball,Sat Feb 15 05:47:45 UTC 2014,180.0,Video Game
 Costa Rica Del Sol,Sat Feb 15 05:47:30 UTC 2014,1.0,Coffee
-East End Big Hop IPA,Sat Feb 15 05:47:07 UTC 2014,1.0,Beer
-East End Lord Nordsberry,Sat Feb 15 05:46:55 UTC 2014,2.0,Beer
+East End Big Hop IPA,Sat Feb 15 05:47:07 UTC 2014,1.0,Beer; IPA
+East End Lord Nordsberry,Sat Feb 15 05:46:55 UTC 2014,2.0,Beer; Belgium Ale
 Oat Bagel,Thu Feb 13 16:46:17 UTC 2014,1.0,Bagel
-East End Lord Nordsberry,Thu Feb 13 15:23:16 UTC 2014,3.0,Beer
+East End Lord Nordsberry,Thu Feb 13 15:23:16 UTC 2014,3.0,Beer; Belgium Ale
 Costa Rica Del Sol,Thu Feb 13 15:21:39 UTC 2014,1.0,Coffee
 Everything Bagel,Thu Feb 13 15:21:31 UTC 2014,1.0,Bagel
 LoL,Wed Feb 12 08:11:03 UTC 2014,110.0,Video Game
@@ -66,31 +90,31 @@ Kona Espresso,Thu Feb 06 13:00:00 UTC 2014,1.0,Coffee
 Jamming,Thu Feb 06 09:12:09 UTC 2014,0.5,Music
 Editing,Thu Feb 06 09:12:04 UTC 2014,2.0,Music
 Recording,Thu Feb 06 09:12:02 UTC 2014,1.0,Music
-Sam Adams Rebel IPA,Thu Feb 06 09:11:41 UTC 2014,1.0,Beer
-Magic Hat Heart of Darkness,Thu Feb 06 09:11:25 UTC 2014,1.0,Beer
-B2 Black IPA,Thu Feb 06 09:11:10 UTC 2014,1.0,Beer
+Sam Adams Rebel IPA,Thu Feb 06 09:11:41 UTC 2014,1.0,Beer; IPA
+Magic Hat Heart of Darkness,Thu Feb 06 09:11:25 UTC 2014,1.0,Beer; Stout
+B2 Black IPA,Thu Feb 06 09:11:10 UTC 2014,1.0,Beer; IPA
 Techmo Super Baseball,Thu Feb 06 01:17:44 UTC 2014,60.0,Video Game
 Kona Espresso,Wed Feb 05 10:03:07 UTC 2014,1.0,Coffee
-Weyerbacher IPA,Wed Feb 05 10:03:02 UTC 2014,1.0,Beer
+Weyerbacher IPA,Wed Feb 05 10:03:02 UTC 2014,1.0,Beer; IPA
 Techmo Super Baseball,Wed Feb 05 10:02:57 UTC 2014,90.0,Video Game
 LoL,Wed Feb 05 10:02:54 UTC 2014,90.0,Video Game
 Recording,Wed Feb 05 10:02:45 UTC 2014,2.0,Music
 Composing,Wed Feb 05 10:02:42 UTC 2014,2.0,Music
 Kona Espresso,Tue Feb 04 18:44:45 UTC 2014,1.0,Coffee
-Weyerbacher IPA,Tue Feb 04 08:43:00 UTC 2014,1.0,Beer
+Weyerbacher IPA,Tue Feb 04 08:43:00 UTC 2014,1.0,Beer; IPA
 Composing,Tue Feb 04 08:42:53 UTC 2014,1.0,Music
 Recording,Tue Feb 04 08:42:51 UTC 2014,1.0,Music
 Recording,Tue Feb 04 08:42:47 UTC 2014,2.0,Music
 Editing,Tue Feb 04 08:42:45 UTC 2014,1.0,Music
 Kona Espresso,Tue Feb 04 08:42:31 UTC 2014,1.0,Coffee
 Techmo Super Baseball,Tue Feb 04 08:42:26 UTC 2014,40.0,Video Game
-Great Lakes Pale Ale,Mon Feb 03 05:45:46 UTC 2014,4.0,Beer
+Great Lakes Pale Ale,Mon Feb 03 05:45:46 UTC 2014,4.0,Beer; Pale Ale
 Techmo Super Baseball,Sun Feb 02 22:44:53 UTC 2014,20.0,Video Game
-Weyerbacher IPA,Sun Feb 02 22:44:30 UTC 2014,2.0,Beer
+Weyerbacher IPA,Sun Feb 02 22:44:30 UTC 2014,2.0,Beer; IPA
 Composing,Sun Feb 02 21:19:53 UTC 2014,1.0,Music
 Kona Espresso,Sun Feb 02 21:19:37 UTC 2014,1.0,Coffee
 Practicing,Sun Feb 02 00:59:53 UTC 2014,0.5,Music
-Weyerbacher IPA,Sun Feb 02 00:59:15 UTC 2014,2.0,Beer
+Weyerbacher IPA,Sun Feb 02 00:59:15 UTC 2014,2.0,Beer; IPA
 Kona Espresso,Sat Feb 01 20:49:18 UTC 2014,1.0,Coffee
 LoL,Sat Feb 01 07:00:00 UTC 2014,60.0,Video Game
 Composing,Sat Feb 01 05:00:00 UTC 2014,2.0,Music
@@ -105,42 +129,42 @@ Editing,Thu Jan 30 18:29:09 UTC 2014,0.75,Music
 Kona Espresso,Thu Jan 30 13:02:00 UTC 2014,1.0,Coffee
 LoL,Thu Jan 30 07:46:27 UTC 2014,60.0,Video Game
 Techmo Super Baseball,Thu Jan 30 07:46:02 UTC 2014,90.0,Video Game
-Bells Midwestern Pale Ale,Thu Jan 30 06:42:52 UTC 2014,1.0,Beer
-Ten Barrel IPA,Thu Jan 30 06:42:40 UTC 2014,1.0,Beer
+Bells Midwestern Pale Ale,Thu Jan 30 06:42:52 UTC 2014,1.0,Beer; Pale Ale
+Ten Barrel IPA,Thu Jan 30 06:42:40 UTC 2014,1.0,Beer; IPA
 Kona Espresso,Wed Jan 29 21:22:22 UTC 2014,1.0,Coffee
-Ten Barrel Winter Ale,Wed Jan 29 08:16:53 UTC 2014,2.0,Beer
-Smuttynose Robust Porter,Wed Jan 29 04:20:54 UTC 2014,1.0,Beer
+Ten Barrel Winter Ale,Wed Jan 29 08:16:53 UTC 2014,2.0,Beer; Winter Ale
+Smuttynose Robust Porter,Wed Jan 29 04:20:54 UTC 2014,1.0,Beer; Porter
 Recording,Wed Jan 29 03:00:04 UTC 2014,2.0,Music
 LoL,Wed Jan 29 02:59:47 UTC 2014,90.0,Video Game
-Legend Brown,Tue Jan 28 23:52:13 UTC 2014,1.0,Beer
+Legend Brown,Tue Jan 28 23:52:13 UTC 2014,1.0,Beer; Brown Ale
 LoL,Tue Jan 28 06:22:06 UTC 2014,120.0,Video Game
-Mustang American Lager,Tue Jan 28 02:49:35 UTC 2014,1.0,Beer
+Mustang American Lager,Tue Jan 28 02:49:35 UTC 2014,1.0,Beer; Lager
 Techmo Super Baseball,Tue Jan 28 01:24:33 UTC 2014,180.0,Video Game
 Cinnamon Bagel,Mon Jan 27 18:50:21 UTC 2014,1.0,Bagel
 Basketball,Mon Jan 27 08:24:38 UTC 2014,60.0,Sports
 Techmo Super Baseball,Mon Jan 27 08:24:20 UTC 2014,59.0,Video Game
 LoL,Mon Jan 27 06:00:00 UTC 2014,150.0,Video Game
 Techmo Super Baseball,Mon Jan 27 05:51:21 UTC 2014,1.0,Video Game
-Lagunitas Maximus,Mon Jan 27 05:50:57 UTC 2014,1.0,Beer
-East Side Big Hop,Mon Jan 27 05:50:38 UTC 2014,1.0,Beer
+Lagunitas Maximus,Mon Jan 27 05:50:57 UTC 2014,1.0,Beer; IPA
+East Side Big Hop,Mon Jan 27 05:50:38 UTC 2014,1.0,Beer; IPA
 Live Concert,Mon Jan 27 05:50:23 UTC 2014,2.0,Music
 Plain Bagel,Mon Jan 27 05:50:01 UTC 2014,1.0,Bagel
 Jamming,Sun Jan 26 20:05:03 UTC 2014,2.5,Music
 Cinnamon Bagel,Sun Jan 26 20:04:42 UTC 2014,1.0,Bagel
 Plain Bagel,Sun Jan 26 20:04:39 UTC 2014,1.0,Bagel
 Kona Espresso,Sun Jan 26 14:30:00 UTC 2014,1.0,Coffee
-Legend Brown,Sun Jan 26 14:30:00 UTC 2014,1.0,Beer
+Legend Brown,Sun Jan 26 14:30:00 UTC 2014,1.0,Beer; Brown Ale
 LoL,Sun Jan 26 09:36:14 UTC 2014,120.0,Video Game
 Plain Bagel,Sun Jan 26 06:49:02 UTC 2014,1.0,Bagel
 Recording,Sun Jan 26 06:05:41 UTC 2014,3.0,Music
 Kona Espresso,Sun Jan 26 06:02:53 UTC 2014,1.0,Coffee
 Techmo Super Baseball,Sun Jan 26 06:00:15 UTC 2014,90.0,Video Game
-Ten Barrel Winter Ale,Sun Jan 26 05:59:20 UTC 2014,1.0,Beer
+Ten Barrel Winter Ale,Sun Jan 26 05:59:20 UTC 2014,1.0,Beer; Winter Ale
 Cinnamon Bagel,Sun Jan 26 03:59:10 UTC 2014,1.0,Bagel
 Cinnamon Bagel,Sun Jan 26 03:56:16 UTC 2014,1.0,Bagel
 Plain Bagel,Sun Jan 26 03:56:14 UTC 2014,1.0,Bagel
 Plain Bagel,Sun Jan 26 01:59:39 UTC 2014,1.0,Bagel
-Legend Brown,Sun Jan 26 01:58:27 UTC 2014,1.0,Beer
+Legend Brown,Sun Jan 26 01:58:27 UTC 2014,1.0,Beer; Brown Ale
 Plain Bagel,Sun Jan 26 01:57:23 UTC 2014,2.0,Bagel
 Cinnamon Bagel,Sun Jan 26 01:56:57 UTC 2014,1.0,Bagel
 Editing,Sat Jan 25 02:30:00 UTC 2014,6.0,Music
